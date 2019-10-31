@@ -14,10 +14,10 @@ button {
     text-decoration: none;
 }
 
-.header {
+header {
     display: flex;
-    justify-content: center;
-    align-items: flex-;
+    justify-content: flex-end;
+    align-items: center;
     padding: 30px 10%;
 }
 
@@ -27,6 +27,7 @@ img {
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 .nav-links {
@@ -36,4 +37,25 @@ img {
 .nav-links li {
     display: inline-block;
     padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: blue;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: grey;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 1);
 }
