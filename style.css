@@ -1,3 +1,39 @@
-body {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     background-color: #d1d5d6;
+}
+
+li,
+a,
+button {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-;
+    padding: 30px 10%;
+}
+
+img {
+    width: 200px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
 }
