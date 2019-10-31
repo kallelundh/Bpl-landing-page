@@ -297,7 +297,12 @@ nav ul {
 }
 
 
-.secondpage{
+.secondpage {
     height: 700px;
     background-color: #ffffff;
+}
+
+.thirdpage {
+    height: 700px;
+    background-color: blue;
 }
