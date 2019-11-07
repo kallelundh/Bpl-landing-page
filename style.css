@@ -170,7 +170,6 @@ select {
 
 body {
     background-color: #d1d5d6;
-    height: 2700px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -390,7 +389,6 @@ nav ul {
 
 
 .fourth-page {
-    height: 700px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -410,15 +408,29 @@ nav ul {
 .fourth-page .sale-box-container {
     width: 158px;
     height: 185px;
+    padding-bottom: 20px;
     background: #FFFFFF;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     display: flex;
     text-align: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
+
+.fourth-page .sale-box-size-container{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+/* .fourth-page .sale-box-price-container{
+    text-align: center;
+    margin-bottom: 20px;
+} */
 
 .fourth-page p {
     font-size: 14px;
@@ -430,7 +442,17 @@ nav ul {
 }
 
 .fourth-page h2 {
-    font-size: 14px;
+    font-size: 24px;
+}
+
+.fourth-page .h2-price {
+    font-size: 20px;
+    color: #FF687F;
+}
+
+.fourth-page-button-container{
+    width: 100%;
+    text-align: center;
 }
 
 .fourth-page-button {
@@ -460,3 +482,4 @@ footer {
     text-align: center;
 
 }
+
