@@ -465,18 +465,28 @@ nav ul {
 
 .footer {
   background-color: white;
+  margin-top: 100px;
 }
 
 .Premier-footer {
   text-align: center;
   font-size: 14px;
-  padding: 20px 0 10px 0;
+  padding: 10px 0 10px 0;
   color: #ff687f;
 }
 
 .footer-text {
   text-align: center;
   font-size: 12px;
+  padding: 10px;
+}
+
+.end {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 10px;
+  color: black;
+  font-style: italic;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
