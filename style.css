@@ -167,13 +167,8 @@ select {
 /* Start Navbar */
 
 body {
-<<<<<<< HEAD
     background-color: #d1d5d6;
     font-family: 'Montserrat', sans-serif;
-=======
-  background-color: #d1d5d6;
-  font-family: "Montserrat", sans-serif;
->>>>>>> 851f9a51be807ee9419ee412cb7d1a296105e601
 }
 
 li,
@@ -386,16 +381,12 @@ nav ul {
 }
 
 .fourth-page {
-<<<<<<< HEAD
     display: flex;
     align-items: center;
     flex-direction: column;
-=======
-  height: 700px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
->>>>>>> 851f9a51be807ee9419ee412cb7d1a296105e601
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .fourth-page-headline-container {
@@ -410,7 +401,6 @@ nav ul {
 }
 
 .fourth-page .sale-box-container {
-<<<<<<< HEAD
     width: 158px;
     height: 185px;
     padding-bottom: 20px;
@@ -422,17 +412,6 @@ nav ul {
     flex-direction: column;
     justify-content: space-between;
 
-=======
-  width: 158px;
-  height: 185px;
-  background: #ffffff;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: space-around;
->>>>>>> 851f9a51be807ee9419ee412cb7d1a296105e601
 }
 
 .fourth-page .sale-box-size-container{
@@ -501,10 +480,7 @@ nav ul {
 
 }
 
-  text-align: center;
-  font-size: 14px;
-  padding: 10px 10px 20px 10px;
-}
+
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
   /* HEADER */
