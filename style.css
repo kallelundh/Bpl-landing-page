@@ -294,8 +294,7 @@ nav ul {
 
 .second-page {
   height: 700px;
-  background-color: #ffffff;
-  opacity: 75%;
+  background-color: #f3f5f5;
   display: flex;
   justify-content: center;
   border-radius: 30px;
@@ -405,7 +404,7 @@ nav ul {
   width: 158px;
   height: 185px;
   padding-bottom: 20px;
-  background: #ffffff;
+  background-color: #f3f5f5;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   display: flex;
