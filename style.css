@@ -296,26 +296,16 @@ nav ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-<<<<<<< HEAD
-.secondpage {
-    width: 100%;
-    height: 85vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-=======
 .second-page {
     height: 700px;
->>>>>>> 50165f4dd95d528b56ca5f51c0e9fb07c612eb8b
     background-color: #ffffff;
-    display: flex; 
+    display: flex;
     justify-content: center;
     border-radius: 30px;
 }
 
-.second-page h2{
+
+.second-page h2 {
     text-align: center;
     font-size: 15px;
     font-style: bold;
@@ -323,7 +313,8 @@ nav ul {
     padding-bottom: 30px;
 }
 
-.second-page ul, .second-page p{
+.second-page ul,
+.second-page p {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -331,17 +322,18 @@ nav ul {
     font-size: 14px;
 }
 
-.second-page ul{
+.second-page ul {
     list-style: none;
     margin-left: 0;
 }
-.second-page ul > li:before {
+
+.second-page ul>li:before {
     display: inline-block;
     content: "-";
     width: 1em;
 }
 
-.second-page .line-container{
+.second-page .line-container {
     margin: 0 auto;
     width: 1px;
     background-color: #000;
@@ -351,7 +343,6 @@ nav ul {
 
 .third-page {
     height: 700px;
-<<<<<<< HEAD
     background-color: #d1d5d6;
     display: flex;
     flex-wrap: wrap;
@@ -395,30 +386,29 @@ nav ul {
 
 .text-2-thirdpage {
     margin: 100% 3% 0 3%;
-=======
     background-color: blue;
 }
 
 
-.fourth-page{
+.fourth-page {
     height: 700px;
-    display: flex; 
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.fourth-page-headline-container{
+.fourth-page-headline-container {
     margin: 40px 0px;
 }
 
-.fourth-page .sale-container{
+.fourth-page .sale-container {
     width: 100%;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-around;
 }
 
-.fourth-page .sale-box-container{
+.fourth-page .sale-box-container {
     width: 158px;
     height: 185px;
     background: #FFFFFF;
@@ -428,23 +418,23 @@ nav ul {
     text-align: center;
     flex-direction: column;
     justify-content: space-around;
-    
+
 }
 
-
-.fourth-page p{
+.fourth-page p {
     font-size: 14px;
 }
 
-.fourth-page h1{
+.fourth-page h1 {
     font-size: 25px;
     font-weight: 200;
 }
-.fourth-page h2{
+
+.fourth-page h2 {
     font-size: 14px;
 }
 
-.fourth-page-button{
+.fourth-page-button {
     background-color: #ffffff;
     margin: 30px;
     width: 140px;
@@ -455,5 +445,4 @@ nav ul {
     font-weight: 600;
     border-radius: 5px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
->>>>>>> 50165f4dd95d528b56ca5f51c0e9fb07c612eb8b
 }
