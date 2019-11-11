@@ -321,6 +321,16 @@ nav ul {
   align-items: center;
 }
 
+.line-container-desktop-one{
+  display: none;
+}
+.line-container-desktop-two{
+  display: none;
+}
+.line-container-desktop-three{
+  display: none;
+}
+
 .second-page-img-container img{
   display: none;
 }
@@ -722,6 +732,7 @@ nav ul {
   }
 
   .second-page .line-container-desktop-one {
+    display: block;
     position: absolute;
     width: 1px;
     opacity: 50%;
@@ -733,6 +744,7 @@ nav ul {
   }
 
   .second-page .line-container-desktop-two {
+    display: block;
     position: absolute;
     width: 1px;
     opacity: 50%;
@@ -744,6 +756,7 @@ nav ul {
   }
 
   .second-page .line-container-desktop-three {
+    display: block;
     position: absolute;
     width: 1px;
     opacity: 50%;
