@@ -629,7 +629,7 @@ nav ul {
     flex-direction: column;
   }
   .first-page-title-container {
-    margin-top: 50px;
+    margin-bottom: 300px;
     width: 95%;
     display: flex;
     justify-content: center;
@@ -645,8 +645,10 @@ nav ul {
     font-size: 30px;
   }
   .first-page img {
-    margin-top: 2em;
-    height: 600px;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: -150px;
+    height: 500px;
     object-fit: fill;
     object-position: top left;
   }
