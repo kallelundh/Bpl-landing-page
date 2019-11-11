@@ -321,7 +321,7 @@ nav ul {
   align-items: center;
 }
 
-.second-page-img-container {
+.second-page-img-container img{
   display: none;
 }
 
@@ -682,6 +682,92 @@ nav ul {
   /* end first page */
 
   /* second page */
+  .second-page {  
+    background-color: #f3f5f5;
+    border-radius: 30px;
+    height: 750px;
+  }
+
+  .second-page-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .second-page h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: bold;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+  }
+
+  .about-page-first-text{
+    position: absolute;
+    width: 450px;
+    margin-top: 110px;
+    margin-left: -420px;
+  }
+
+  .second-page-first-list{
+    position: absolute;
+    width: 690px;
+    margin-top: 500px;
+    margin-left: -300px
+  }
+
+  .second-page-second-list{
+    position: absolute;
+    width: 390px;
+    margin-top: 150px;
+    margin-left: 450px;
+  }
+  
+  .second-page .line-container {
+    display: none;
+  }
+
+  .second-page .line-container-desktop-one {
+    position: absolute;
+    width: 1px;
+    opacity: 50%;
+    background-color: #000;
+    height: 110px;
+    margin-top: 200px;
+    margin-left: 160px;
+    transform: rotate(70deg);
+  }
+
+  .second-page .line-container-desktop-two {
+    position: absolute;
+    width: 1px;
+    opacity: 50%;
+    background-color: #000;
+    height: 100px;
+    margin-top: 420px;
+    margin-left: -130px;
+    transform: rotate(40deg);
+  }
+
+  .second-page .line-container-desktop-three {
+    position: absolute;
+    width: 1px;
+    opacity: 50%;
+    background-color: #000;
+    height: 140px;
+    margin-top: 180px;
+    margin-left: -190px;
+    transform: rotate(120deg);
+  }
+  
+  
+  .second-page-img-container img{
+    display: block;
+    width: 250px;
+    margin-top: 180px;
+    margin-left: -190px;
+  }
   /* end second page */
 
   /* third page */
