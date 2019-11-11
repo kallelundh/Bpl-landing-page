@@ -618,7 +618,14 @@ nav ul {
     font-weight: 600;
     border-radius: 5px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
   }
+  .hidden-button:hover
+{
+        background:black;
+        color: white;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+}
 
   /**/
 
@@ -846,6 +853,27 @@ nav ul {
     text-align: center;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .fourth-page-button {
+    background-color: #ff687f;
+    margin: 30px;
+    width: 140px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+  }
+
+  .fourth-page-button:hover
+  {
+          background:black;
+          color: white;
+          box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
   }
 
   }
