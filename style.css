@@ -716,15 +716,17 @@ nav ul {
   .about-page-first-text{
     position: absolute;
     width: 450px;
-    margin-top: 110px;
+    margin-top: 90px;
     margin-left: -420px;
+    border: 1px solid black;
   }
 
   .second-page-first-list{
     position: absolute;
     width: 690px;
-    margin-top: 500px;
-    margin-left: -300px
+    margin-top: 530px;
+    margin-left: -300px;
+    border: 1px solid black;
   }
 
   .second-page-second-list{
@@ -732,7 +734,17 @@ nav ul {
     width: 390px;
     margin-top: 150px;
     margin-left: 450px;
+    border: 1px solid black;
   }
+
+  .second-page ul,
+.second-page p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+}
   
   .second-page .line-container {
     display: none;
@@ -829,6 +841,8 @@ nav ul {
     display: flex;
     align-items: center;
     flex-direction: row;
+    max-width: 80%;
+    margin: auto;
   }
 
   .fourth-page-headline-container {
