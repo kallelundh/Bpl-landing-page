@@ -321,6 +321,10 @@ nav ul {
   align-items: center;
 }
 
+.second-page-img-container{
+  display: none;
+}
+
 .third-page {
   height: 700px;
   background-color: #d1d5d6;
@@ -629,7 +633,7 @@ nav ul {
     flex-direction: column;
   }
   .first-page-title-container {
-    margin-bottom: 300px;
+    margin-bottom: 350px;
     width: 95%;
     display: flex;
     justify-content: center;
@@ -646,9 +650,9 @@ nav ul {
   }
   .first-page img {
     position: absolute;
-    margin-top: -380px;
+    margin-top: -410px;
     margin-left: -230px;
-    height: 700px;
+    height: 650px;
     object-fit: fill;
     object-position: top left;
   }
