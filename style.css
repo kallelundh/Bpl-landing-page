@@ -579,14 +579,14 @@ nav ul {
 @media (min-width: 1024px) {
   /* HEADER */
   .navbarcontainer {
-    width: 350px;
+    width: 400px;
     height: 20px;
   }
 
   .hidden-button {
     display: block;
     background-color: #ff687f;
-    margin: 30px;
+    margin: -10px;
     width: 140px;
     padding: 10px 10px;
     font-size: 15px;
@@ -606,8 +606,8 @@ nav ul {
   .logonike {
     cursor: pointer;
     width: 200px;
-    margin-left: 50px;
-    margin-top: 40px;
+    margin-left: 5%;
+    margin-top: 0px;
   }
 
   header {
