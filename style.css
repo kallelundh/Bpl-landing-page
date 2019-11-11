@@ -290,7 +290,7 @@ nav ul {
 }
 
 .second-page ul,
-  {
+.second-page p {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 20px;
@@ -302,7 +302,7 @@ nav ul {
   list-style: none;
 }
 
-.second-page ul>li:before {
+.second-page ul > li:before {
   display: inline-block;
   content: "-";
   width: 1em;
@@ -364,7 +364,6 @@ nav ul {
   display: flex;
   align-items: center;
   flex-direction: column;
-  align-items: center;
 }
 
 .fourth-page-headline-container {
@@ -469,7 +468,6 @@ nav ul {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-
   /* HEADER */
   .navbarcontainer {
     width: 400px;
@@ -519,7 +517,7 @@ nav ul {
 
   .about-page-first-text {
     width: 70%;
-    margin: 3% 0 3% 15%;
+    margin: 3% 0 3% 18%;
     letter-spacing: 1px;
   }
 
@@ -527,6 +525,13 @@ nav ul {
     width: 70%;
     margin: 3% 0 3% 15%;
     letter-spacing: 1px;
+  }
+
+  .second-page p {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .fourth-page {
