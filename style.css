@@ -576,7 +576,49 @@ nav ul {
   }
 }
 
-@media (min-device-width: 1024px) {
+@media (min-width: 1024px) {
+  /* HEADER */
+  .navbarcontainer {
+    width: 350px;
+    height: 20px;
+  }
+
+  .hidden-button {
+    display: block;
+    background-color: #ff687f;
+    margin: 30px;
+    width: 140px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-style: bold;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .nav-linksup {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .logonike {
+    cursor: pointer;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    height: 15vh;
+  }
+
+  /* end navbar */
 
   .first-page {
     width: 100%;
@@ -586,7 +628,6 @@ nav ul {
     align-items: center;
     flex-direction: column;
   }
-  
   .first-page-title-container {
     margin-top: 50px;
     width: 95%;
@@ -596,25 +637,20 @@ nav ul {
     flex-direction: column;
     justify-content: space-between;
   }
-
-  .first-page-title-container h1
-  {
+  .first-page-title-container h1 {
     font-size: 35px;
     font-style: semibold;
   }
-
   .first-page-title-container p {
     font-size: 30px;
   }
-  
   .first-page img {
     margin-top: 2em;
     height: 600px;
     object-fit: fill;
     object-position: top left;
   }
-
-  .first-page-button{
+  .first-page-button {
     display: none;
   }
 }
