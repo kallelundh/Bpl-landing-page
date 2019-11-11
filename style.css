@@ -572,5 +572,45 @@ nav ul {
   }
 }
 
-@media only screen and (min-device-width: 1024) {
+@media (min-device-width: 1024px) {
+
+  .first-page {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .first-page-title-container {
+    margin-top: 50px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .first-page-title-container h1
+  {
+    font-size: 35px;
+    font-style: semibold;
+  }
+
+  .first-page-title-container p {
+    font-size: 30px;
+  }
+  
+  .first-page img {
+    margin-top: 2em;
+    height: 600px;
+    object-fit: fill;
+    object-position: top left;
+  }
+
+  .first-page-button{
+    display: none;
+  }
 }
