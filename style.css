@@ -169,6 +169,7 @@ select {
 body {
   background-color: #d1d5d6;
   font-family: "Montserrat", sans-serif;
+  width: 100%;
 }
 
 .nav-linksup {
@@ -695,7 +696,7 @@ nav ul {
   /* end first page */
 
   /* second page */
-  .second-page {  
+  .second-page {
     background-color: #f3f5f5;
     border-radius: 30px;
     height: 750px;
@@ -748,7 +749,7 @@ nav ul {
   padding-right: 20px;
   font-size: 14px;
 }
-  
+
   .second-page .line-container {
     display: none;
   }
@@ -788,8 +789,8 @@ nav ul {
     margin-left: -190px;
     transform: rotate(120deg);
   }
-  
-  
+
+
   .second-page-img-container img{
     display: block;
     width: 250px;
